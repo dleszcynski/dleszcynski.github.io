@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="/semantic/dist/semantic.css" type="text/css">
+	<link rel="stylesheet" href="/css/dl_site.css" type="text/css">
+	<script type="text/javascript" src="/javascript/jQuery.js"></script> 
+	<script type="text/javascript" src="/semantic/dist/semantic.js"></script>
+	<script type="text/javascript" src="/semantic/dist/components/sidebar.min.js"></script> 
+	<script type="text/javascript" src="/semantic/dist/components/accordion.min.js"></script>
+	<script type="text/javascript" src="/semantic/dist/components/transition.min.js"></script>
+
+	<title>David Leszcynski</title>
+</head>
+
+<body>
+
+<!--Sidebar-->
+<div id="toc" class="ui vertical inverted sidebar menu left overlay">
+	<a class="item" href="/index.html">
+		<b>Home</b>
+	</a>
+	<a class="item" href="/dl_blog.html">
+		<b>Blog</b>
+	</a>
+	<div class="item">
+		<div>
+			<a href="/dl_gallery_main.html"><b>Galleries</b></a>
+		</div>
+		<div class="menu">
+			<a class="item" href="/dl_gallery_portraits.html"> Portraits </a>
+			<a class="item" href="/dl_gallery_landscapes.html"> Landscapes </a>
+			<a class="item" href="/dl_gallery_sports.html"> Sports </a>
+			<a class="item" href="/dl_gallery_artistic.html"> Artistic </a>
+		</div>
+	</div>
+	<a class="item" href="/dl_contact.html">
+		<b>Contact</b>
+	</a>
+	<a class="item" href="/dlp_resume.html">
+		<b>Resume</b>
+	</a>
+</div>
+
+<!--Body-->
+<div class="pusher">
+	<div class="full height">
+		<div class="ui container">
+			<div class="item" id="main-menu-button">
+				<a class="view-ui item">
+					<b>Menu</b>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="ui container">
+		<h1>David C. Leszcynski</h1>
+	<h5>davidleszcynski@icloud.com | 317.670.0029</h5>
+	<h5>5230 E. Washington St. Apt. 31 Indianapolis IN 46219</h5>
+	<h3>Education</h3>
+	<p><b>Bachelor of Liberal Arts in Photography </b> | May 2013<br>Marian University - Indianapolis</p>
+	<h3>Work Experience</h3>
+	<p><b>AppleCare At Home Advisor Mac+ </b>| August 2013 - Present<br>Apple, Inc.</p>
+	<ul>
+		<li>Troubleshoot advanced issues with both iOS and CPU, taking ownership of cases and coordinating with Engineering accordingly.</li>
+		<li>Work with TextExpander, OmniFocus2, and other programs to increase efficiency during calls.</li>
+		<li>Maintain high level of both Customer Satisfaction and Issue Resolution, often exceeding business goals.</li>
+		<li>Experience with multiple queues, dealing with OS X, iOS, and iCloud.</li>
+	</ul>
+	<p><b>Resident Assistant </b>| August 2011 - May 2013<br>Marian University - Indianapolis</p>
+	<ul>
+		<li>Responsible for 25+ residents.</li>
+		<li>Manage program planning, bulletin board creation, and development of door tags for residents.</li>
+		<li>Enforce rules of the residence hall when necessary.</li>
+	</ul>
+	<p><b>Page </b> | Summers of 2005 - 2011<br>Indianapolis Marion-County Public Library</p>
+	<ul>
+		<li>Designed decorations for the branch for each Summer Reading Program.</li>
+		<li>Shelved returned books and assisted librarians when needed.</li>
+	</ul>
+	<h3>Photography Experience</h3>
+	<p><b>Photographer </b> | Fall 2011 - Present<br>Marian University - Indianpaolis, IN</p>
+	<ul>
+		<li>Photographed all home football games for the Fall 2011, 2012 seasons.</li>
+		<li>Edit pictures directly after game to be used on Athletic Department website.</li>
+	</ul>
+	<br>
+	<p>Scecina Memorial High School</p>
+	<ul>
+		<li>Photograph Students for promotional marketing materials for the 2012-2013 Academic year.</li>
+	</ul>
+	<p><b>Studio Photograhy Intern </b>| Summer 2012<br>The Finish Line, Inc., Indianapolis, IN</p>
+	<ul>
+		<li>Photograph products to meet the design standards of the company in a studio setting.</li>
+		<li>Photographed products for promotional material for the Finish Line website.</li>
+		<li>Contributed with a team of interns for a case study on Finish Line’s new in-store technology.</li>
+	</ul>
+	<p><b>Photography and Media Design Intern </b>| January 2012 - April 2012<br>St. Alphonsus Liguori Catholic Church, Zionsville, IN</p>
+	<ul>
+		<li>Photographed major events at the parish, including chronicling parish renovations.</li>
+		<li>Created various graphics for the parish website.</li>
+		<li>Designed a new welcome packet for incoming parishioners.</li>
+	</ul>
+	<h3>Religious Education Experience</h3>
+	<p><b>Religion Education Teacher </b>| August 2012 - May 2015<br>St. Anthony of Padua Catholic Church, Indianapolis, IN</p>
+	<ul>
+		<li>Taught after school and Sunday classes for middle school students and Confirmation courses for teens.</li>
+		<li>Attended Mass and guided children through Catholic practices</li>
+	</ul>
+	<p><b>One Bread, Once Cup College Ministerial Internship Program </b>| Summers of 2010, 2011<br>St. Meinrad Archabbey, St. Meinrad, IN</p>
+	<ul>
+		<li>In charge of photographing three five-day conferences.</li>
+		<li>Taught students how to speak in public and write reflections based on their audience.</li>
+		<li>Assisted high school youth in planning and understanding music as it pertains to the Catholic liturgy.</li>
+	</ul>
+	<h3>Lauds</h3>
+	<p><b>Quarterly MVP </b>| Apple</p>
+	</div>
+
+	<!--jQuery-->
+<script type="text/javascript">
+	$(
+		function() {	
+					var $toc = $("#toc");
+					$($toc).sidebar("setting", "transition", "overlay");
+					$($toc).sidebar("attach events", "#main-menu-button");
+		}
+	);
+</script>
+</body>
+
+</html>

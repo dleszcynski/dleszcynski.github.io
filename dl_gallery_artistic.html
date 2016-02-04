@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="/semantic/dist/semantic.css" type="text/css">
+	<link rel="stylesheet" href="/css/dl_site.css" type="text/css">
+	<script type="text/javascript" src="/javascript/jQuery.js"></script> 
+	<script type="text/javascript" src="/semantic/dist/semantic.js"></script>
+	<script type="text/javascript" src="/semantic/dist/components/sidebar.min.js"></script>
+
+	<title>DLP</title>
+</head>
+
+<body>
+<!--Sidebar-->
+<div id="toc" class="ui vertical inverted sidebar menu left overlay">
+	<a class="item" href="/index.html">
+		<b>Home</b>
+	</a>
+	<div class="item">
+		<div>
+			<b>Galleries</b>
+		</div>
+		<div class="menu">
+			<a class="item" href="/dl_gallery_portraits"> Portraits </a>
+			<a class="item" href="/dl_gallery_landscapes"> Landscapes </a>
+			<a class="item" href="/dl_gallery_sports"> Sports </a>
+			<a class="item" href="/dl_gallery_artistic"> Artistic </a>
+		</div>
+	</div>
+	<a class="item" href="/dl_contact.html">
+		<b>Contact</b>
+	</a>
+
+<!--Body-->
+<div class="pusher">
+	<div class="full height">
+		<div class="ui container">
+			<div class="item" id="main-menu-button">
+				<a class="view-ui item">
+					<b>Menu</b>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--jQuery-->
+<script type="text/javascript">
+	$(
+		function() {
+					$("#toc").sidebar("setting", "transition", "overlay");
+					$("#toc").sidebar("attach events", "#main-menu-button");
+		}
+	);
+</div>
+</div>
+
+</body>
+
+</html>
