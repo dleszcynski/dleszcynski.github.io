@@ -1,0 +1,27 @@
+.introduction {
+	text-align: center;
+	width: 100%;
+	padding-top: 50%;
+}
+
+.name {
+	font-size: 500%;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.tag {
+	font-size: 125%;
+	letter-spacing: .1em;
+}
+
+.main-menu-button {
+  padding-top: 50px;
+}
+
+#vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
