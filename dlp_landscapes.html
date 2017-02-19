@@ -7,6 +7,7 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/dl_site.css" rel="stylesheet">
+    <link href="css/ekko-lightbox.min.css" rel="stylesheet">
 
     <title>DLP</title>
   </head>
@@ -47,12 +48,12 @@
             </div>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="./resources/landscapes/landscapes_1.jpg" data-toggle="lightbox" data-lightbox="landscapes" data-gallery="landscapes">
                     <img class="img-responsive" src="./resources/landscapes/landscapes_1_thumb.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="./resources/landscapes/landscapes_2.jpg" data-toggle="lightbox" data-lightbox="landscapes" data-gallery="landscapes">
                     <img class="img-responsive" src="./resources/landscapes/landscapes_2_thumb.jpg" alt="">
                 </a>
             </div>
@@ -116,11 +117,25 @@
             </div>
             <!-- /.row -->
         </footer>
-        
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- jQuery (used for Lightbox) -->
+    <script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    }); 
+    </script>
+    <script>
+      lightbox.option({
+        alwaysShowClose : true;
+      })
+    </script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/ekko-lightbox.min.js"></script>
 
   </body>
 </html>
