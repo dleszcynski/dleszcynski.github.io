@@ -6758,4 +6758,7 @@ button.close {
     display: none !important;
   }
 }
+.img-responsive, .thumbnail > img {
+  display: initial;
+}
 /*# sourceMappingURL=bootstrap.css.map */
