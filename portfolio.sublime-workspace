@@ -27,15 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 172,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -89,11 +80,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/cosmonaut/Projects/dleszcynski.github.io",
-		"/Users/cosmonaut/Projects/dleszcynski.github.io/resources"
+		"/Users/cosmonaut/Projects/dleszcynski.github.io"
 	],
 	"file_history":
 	[
+		"/Users/cosmonaut/Projects/dleszcynski.github.io/index.html",
+		"/Users/cosmonaut/.zshrc",
 		"/Users/cosmonaut/Projects/JavaScript30/02 - JS and CSS Clock/index-START.html",
 		"/Users/cosmonaut/Projects/JavaScript30/01 - JavaScript Drum Kit/index-START.html",
 		"/Users/cosmonaut/Dropbox/Documents/cosmonote-v2.css",
@@ -133,39 +125,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
